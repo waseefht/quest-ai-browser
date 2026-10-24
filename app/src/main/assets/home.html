@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>الصفحة الرئيسية</title>
+<style>
+body{margin:0;font-family:system-ui,sans-serif;background:radial-gradient(circle at 50% 0,#1d3b74,#0b1020 60%);color:#fff;min-height:100vh;display:flex;flex-direction:column;align-items:center}
+h1{font-size:44px;margin:48px 0 8px}p{color:#b8c4dd;font-size:18px;margin:0 0 24px}
+form{display:flex;gap:10px;width:min(820px,90vw)}input{flex:1;font-size:22px;padding:16px 20px;border-radius:16px;border:2px solid #3d7bff;background:#0e1424;color:#fff}
+button{font-size:22px;padding:0 26px;border-radius:16px;border:0;background:#3d7bff;color:#fff;min-height:60px}
+.g{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:14px;width:min(980px,92vw);margin-top:34px}
+.g a{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:96px;border-radius:18px;background:rgba(255,255,255,.08);color:#fff;text-decoration:none;font-size:18px}
+.g a:hover{background:rgba(61,123,255,.35)}.g span{font-size:34px}
+</style></head><body>
+<h1>🥽 متصفح كويست الذكي</h1><p>ابحث من شريط المحركات بالأعلى، أو هنا:</p>
+<form onsubmit="location.href='https://www.google.com/search?safe=off&q='+encodeURIComponent(q.value);return false"><input id="q" placeholder="ابحث في جوجل…" autocomplete="off"><button>بحث</button></form>
+<div class="g">
+<a href="https://m.youtube.com"><span>▶️</span>يوتيوب</a>
+<a href="https://www.youtube.com/results?search_query=360+video+vr"><span>🌐</span>فيديو 360°</a>
+<a href="https://andisearch.com"><span>✨</span>آندي AI</a>
+<a href="https://www.perplexity.ai"><span>🧠</span>Perplexity</a>
+<a href="https://translate.google.com/?sl=auto&tl=ar"><span>🈯</span>ترجمة جوجل</a>
+<a href="https://www.facebook.com"><span>📘</span>فيسبوك</a>
+<a href="https://x.com"><span>✖️</span>X</a>
+<a href="https://www.wikipedia.org"><span>📚</span>ويكيبيديا</a>
+</div></body></html>
